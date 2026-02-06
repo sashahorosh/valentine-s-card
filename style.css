@@ -1,0 +1,119 @@
+/* Fonts */
+@font-face {
+  font-family: "MisteryHeart";
+  src: url("fonts/Mistery Heart.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  height: 100vh;
+
+  background: url("assets/bg.jpg") no-repeat center/cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Montserrat, sans-serif;
+}
+
+/* Card */
+.card {
+  width: 90%;
+  max-width: 900px;
+  min-height: 500px;
+
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 32px;
+
+  padding: 40px;
+
+  text-align: center;
+
+  position: relative;
+
+  backdrop-filter: blur(6px);
+}
+
+/* Gif */
+.gif {
+  width: 180px;
+  margin-bottom: 24px;
+}
+
+/* Main text */
+h1 {
+  font-family: MisteryHeart, cursive;
+  font-size: 42px;
+  color: #3b1d2a;
+
+  margin-bottom: 40px;
+}
+
+/* Buttons wrapper */
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  margin-bottom: 40px;
+
+  position: relative;
+}
+
+/* Buttons */
+button {
+  width: 80px;
+  height: 40px;
+
+  border: none;
+  border-radius: 999px;
+
+  font-size: 18px;
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* Yes */
+.yes {
+  background: #ec4a8a;
+  color: white;
+}
+
+.yes:hover {
+  transform: scale(2);
+}
+
+/* No */
+.no {
+  background: white;
+  color: #333;
+
+  position: relative;
+}
+
+/* Footer */
+.footer {
+  font-size: 14px;
+  color: #333;
+}
